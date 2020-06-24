@@ -107,59 +107,54 @@ body {
     display: inline-block;
   }
 
-  .contact-flag{
-    background-color: #85C7DE;
+  .flag-padding{
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .flagline-margin{
+    margin-bottom: 0.7px;
+  }
+
+  .contact-flag{
+    background-color: #85C7DE;
+    
   }
 
   .contact-line{
     border: 1px solid #85C7DE;
-    margin-bottom: 2px;
   }
 
   .skills-flag{
     background-color: #A0C4E2;
-    padding-left: 10px;
-    padding-right: 10px;
   }
 
   .skills-line{
     border: 1px solid #A0C4E2;
-    margin-bottom: 2px;
   }
 
   .home-flag{
     background-color: #CFE8EF;
-    padding-left: 10px;
-    padding-right: 10px;
   }
 
   .home-line{
     border: 1px solid #CFE8EF;
-    margin-bottom: 2px;
   }
 
   .about-flag{
     background-color: #C6DBF0;
-    padding-left: 10px;
-    padding-right: 10px;
   }
 
   .about-line{
     border: 1px solid #C6DBF0;
-    margin-bottom: 0.7px;
   }
 
   .portfolio-flag{
     background-color: #AED1E6;
-    padding-left: 10px;
-    padding-right: 10px;
   }
 
   .portfolio-line{
     border: 1px solid #AED1E6;
-    margin-bottom: 2px;
   }
 
   .btn-color{
