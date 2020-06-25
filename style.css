@@ -650,6 +650,7 @@ header .social .btn {
   .nav-bar{
     position: fixed !important;
     margin: -85px -4px -101px -42px !important;
+    z-index: 2;
   }
 
   #menuToggle {
@@ -755,10 +756,9 @@ header .social .btn {
     */
   #menu {
     position: absolute;
-    width: 363px;
+    width: 417px;
     margin: -55px 0 0 -50px;
-    padding: 50px;
-    padding-top: 45px;
+    padding-top: 55px;
     background: #ededed;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
@@ -769,7 +769,6 @@ header .social .btn {
   }
   
   #menu li {
-    padding: 10px 0;
     font-size: 22px;
   }
   
@@ -777,6 +776,10 @@ header .social .btn {
     * And let's slide it in from the left
     */
   #menuToggle input:checked~ul {
+    transform: none;
+  }
+
+  #menuToggle li a:active{
     transform: none;
   }
 }
