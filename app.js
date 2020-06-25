@@ -16,8 +16,9 @@ document.onreadystatechange = function () {
           elem.addEventListener('click', function() {
             let divid =  $(this).data("timeline")
             document.querySelector('#' + divid).classList.toggle('expand');
+            $("#" + divid).slideToggle()
             if($('#' + divid).hasClass('expand')){
-              $(this).text("read less")
+              $(this).text("read less") 
             }
           });
         })

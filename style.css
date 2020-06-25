@@ -585,8 +585,6 @@ header .social .btn {
 
 .smalldesc.expand {
   max-height: 500px;
-  display: block !important;
-  animation: fade_in_show 0.5s
 }
 
 
