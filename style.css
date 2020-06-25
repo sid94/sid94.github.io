@@ -231,6 +231,24 @@ body {
     margin: 0.5px;
     border: 1px solid #dee2e6;
     margin-top: 15px;
+    border-radius: 15px;
+  }
+
+  .anchor-tile{
+    color: #000000 !important;
+    text-decoration: none !important;
+  }
+
+  /* .anchor-tile:hover{
+    color: #000000 !important;
+  } */
+
+  .project-tile:hover{
+    animation: pop 0.3s linear 1;
+  }
+
+  @keyframes pop{
+    50%  {transform: scale(1.02);}
   }
 
   .wrapper {  

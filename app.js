@@ -56,7 +56,7 @@ document.onreadystatechange = function () {
             animateProgressBar();
           });
           animateProgressBar();
-      },700);
+      },200);
   }
 }
 
