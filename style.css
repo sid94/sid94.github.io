@@ -32,12 +32,13 @@ body {
 
 div.content {
   margin-left: 350px;
-  padding: 1px 16px;
+  padding: 6px 16px;
   height: 1000px;
 }
 
 div.page {
-  min-height: 1000px;
+  min-height: 553px;
+  padding-bottom: 30px;
 }
 
 .avatar {
@@ -832,6 +833,15 @@ header .social .btn {
   font-size: 20px;
 }
 
+#home h2{
+  padding-top: 20px;
+  color: #98d1e4;
+}
+
+.home-back{
+  background: aliceblue;
+}
+
 .home-pad h1{
   background-color: #1fc8db;
   background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
@@ -861,7 +871,7 @@ header .social .btn {
 @media screen and (max-width: 400px) {
   .home-pad{
     padding-top: 18px;
-    padding-left: 3px;
+    padding-left: 12px;
   }
   
   .home-pad h1{
