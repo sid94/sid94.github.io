@@ -141,10 +141,12 @@ div.page {
 
 .home-flag {
   background-color: #CFE8EF;
+  display: none;
 }
 
 .home-line {
   border: 1px solid #CFE8EF;
+  display: none;
 }
 
 .about-flag {
@@ -173,7 +175,7 @@ div.page {
   height: 100%;
   position: fixed;
   z-index: 9998;
-  background: url("https://www.creditmutuel.fr/cmne/fr/banques/webservices/nswr/images/loading.gif") no-repeat center center rgba(0, 0, 0, 0.25)
+  background: gray no-repeat center center rgba(0, 0, 0, 0.25)
 }
 
 .loader {
@@ -336,7 +338,8 @@ p {
 
 .contact-detail {
   overflow: hidden;
-  text-align: right;
+  text-align: center;
+  margin-top: 100px;
 }
 
 #contact_social {
@@ -808,3 +811,71 @@ header .social .btn {
 }
 
 /*--------------------------------hamburger for mobile end-------------------------------*/
+
+
+/*----------------------------------Home Page start------------------------------------------*/
+
+.home-pad{
+  padding-top: 100px;
+  padding-left:100px;
+}
+
+.home-pad h1{
+  font-size: 60px !important;
+}
+
+.home-pad h4{
+  font-size: 15px;
+}
+
+.home-pad h3{
+  font-size: 20px;
+}
+
+.home-pad h1{
+  background-color: #1fc8db;
+  background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 700px) {
+  .home-pad{
+    padding-top: 100px;
+    padding-left:100px;
+  }
+  
+  .home-pad h1{
+    font-size: 60px;
+  }
+  
+  .home-pad h4{
+    font-size: 15px;
+  }
+  
+  .home-pad h3{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .home-pad{
+    padding-top: 18px;
+    padding-left: 3px;
+  }
+  
+  .home-pad h1{
+    font-size: 60px !important;
+  }
+  
+  .home-pad h4{
+    font-size: 16px !important;
+  }
+  
+  .home-pad h3{
+    font-size: 20px !important;
+  }
+}
+
+/*----------------------------------Home Page end------------------------------------------*/
+
