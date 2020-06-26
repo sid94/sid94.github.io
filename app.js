@@ -45,6 +45,18 @@ document.onreadystatechange = function () {
         });
       }
 
+      function checkHomeInView(){
+        let hT = $('.content').offset().top,
+            hH = $('.content').outerHeight(),
+            wH = $(window).height(),
+            wS = $(this).scrollTop();
+        $("#menuToggle").removeClass("ham-back")
+        if (wS > (hT+hH-wH) && !$("#ham-checkbox")[0].checked){
+            $("#menuToggle").addClass("ham-back")
+          }
+
+      }
+
       $.fn.isFullyInViewport = function () {
         var elementTop = $(this).offset().top;
         var elementBottom = elementTop + $(this).outerHeight();
@@ -64,15 +76,24 @@ document.onreadystatechange = function () {
         $("#ham-checkbox").prop("checked",false);
         let pageId = $(this).attr("data-page");
         let margin = isMobile() ? 65 : 10
-        $("html, body").animate({
-          scrollTop: ($("#" + pageId).offset().top - margin)
-        }, 1000);
+        if(pageId == "home"){
+          window.scrollTo({top: 0, behavior: 'smooth'});
+        }else{
+          $("html, body").animate({
+            scrollTop: ($("#" + pageId).offset().top - margin)
+          }, 1000);
+        }
       }));
+      
       $(window).on('resize scroll', function () {
         // on page resize or scroll check if element is in viewport
         animateProgressBar();
+
+        checkHomeInView();
+  
       });
       animateProgressBar();
+      checkHomeInView();
     }, 200);
   }
 }

@@ -104,7 +104,7 @@ div.page {
   white-space: nowrap;
   vertical-align: middle;
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .sliderItem {
@@ -649,7 +649,7 @@ header .social .btn {
 
   .nav-bar{
     position: fixed !important;
-    margin: -103px -0px 0px -51px !important;
+    margin: -113px -0px 0px -51px !important;
     z-index: 2;
     width: 100%;
   }
@@ -758,7 +758,7 @@ header .social .btn {
   #menu {
     position: absolute;
     width: 420px;
-    margin: -55px 0 0 -50px;
+    margin: -55px 0 0 -58px;
     padding-top: 55px;
     background: #ededed;
     list-style-type: none;
@@ -784,13 +784,27 @@ header .social .btn {
     transform: none;
   }
 
-  .sidebar-back{
+  .ham-back{
     background-color: #1fc8db;
     background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
     height: 55px;
+    animation:fadeIn 0.5s linear;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity:0
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  .ham-pad{
     padding-top: 18px;
     padding-left: 18px;
   }
+
 }
 
 /*--------------------------------hamburger for mobile end-------------------------------*/
