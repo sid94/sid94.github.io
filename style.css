@@ -41,6 +41,13 @@ div.page {
   padding-bottom: 30px;
 }
 
+@media screen and (max-width: 400px) {
+  div.page {
+    min-height: 422px;
+    padding-bottom: 30px;
+  }
+}
+
 .avatar {
   width: 180px;
   height: 180px;
@@ -884,6 +891,10 @@ header .social .btn {
   
   .home-pad h3{
     font-size: 17px !important;
+  }
+
+  #home h2{
+    padding-top: 0px !important;
   }
 }
 
