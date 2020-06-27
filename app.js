@@ -37,6 +37,23 @@ document.onreadystatechange = function () {
         document.getElementById("a_contact").click();
       })
 
+      $('#ham-checkbox').change(function() {
+
+        if(this.checked ) {
+          $("#load").addClass("overlay")
+          if($('#menuToggle').hasClass("ham-back")){
+            $("#menuToggle").removeClass("ham-back")
+          }
+        }else{
+          $("#load").removeClass("overlay")
+        }
+      });
+
+      $( "#load" ).click(function() {
+        $("#load").removeClass("overlay")
+        $("#ham-checkbox").prop("checked",false);
+      });
+
 
 
       function animateProgressBar() {
@@ -72,12 +89,13 @@ document.onreadystatechange = function () {
       };
 
       document.getElementById('interactive');
-      document.getElementById('load').style.visibility = "hidden";
+      document.getElementById('load').style.visibility = "visible";
       document.getElementById('contents').style.visibility = "visible";
       document.querySelectorAll("#navbar li a").forEach(elem => elem.addEventListener("click", function () {
         $("#navbar li a").removeClass("active")
         $(this).addClass("active");
         $("#ham-checkbox").prop("checked",false);
+        $("#load").removeClass("overlay")
         let pageId = $(this).attr("data-page");
         let margin = isMobile() ? 65 : 10
         if(pageId == "home"){
