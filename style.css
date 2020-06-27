@@ -280,6 +280,7 @@ p {
   border: 1px solid #dee2e6;
   margin-top: 15px;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .anchor-tile {

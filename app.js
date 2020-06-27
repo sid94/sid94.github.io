@@ -39,17 +39,20 @@ document.onreadystatechange = function () {
 
       $('#ham-checkbox').change(function() {
 
-        if(this.checked ) {
+        if(this.checked) {
+          document.getElementById('load').style.visibility = "visible";
           $("#load").addClass("overlay")
           if($('#menuToggle').hasClass("ham-back")){
             $("#menuToggle").removeClass("ham-back")
           }
         }else{
+          console.log("sidebar")
+          document.getElementById('load').style.visibility = "hidden";
           $("#load").removeClass("overlay")
         }
       });
 
-      $( "#load" ).click(function() {
+      $( "#load" ).on('click touchstart',() => {
         $("#load").removeClass("overlay")
         $("#ham-checkbox").prop("checked",false);
       });
@@ -89,13 +92,14 @@ document.onreadystatechange = function () {
       };
 
       document.getElementById('interactive');
-      document.getElementById('load').style.visibility = "visible";
+      document.getElementById('load').style.visibility = "hidden";
       document.getElementById('contents').style.visibility = "visible";
       document.querySelectorAll("#navbar li a").forEach(elem => elem.addEventListener("click", function () {
         $("#navbar li a").removeClass("active")
         $(this).addClass("active");
         $("#ham-checkbox").prop("checked",false);
         $("#load").removeClass("overlay")
+        document.getElementById('load').style.visibility = "hidden";
         let pageId = $(this).attr("data-page");
         let margin = isMobile() ? 65 : 10
         if(pageId == "home"){
