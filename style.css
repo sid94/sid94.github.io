@@ -13,6 +13,10 @@ body {
   overflow: auto;
 }
 
+p{
+  text-align: justify;
+  margin-right: 20px;
+}
 
 
 .nav-bar a {
@@ -719,8 +723,8 @@ header .social .btn {
     width: 40px;
     height: 32px;
     position: absolute;
-    top: -7px;
-    left: -5px;
+    top: 11px;
+    left: 14px;
   
     cursor: pointer;
   
