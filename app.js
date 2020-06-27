@@ -33,6 +33,10 @@ document.onreadystatechange = function () {
         return check;
       };
 
+      document.querySelector("#getintouch").addEventListener("click", ()=>{
+        document.getElementById("a_contact").click();
+      })
+
 
 
       function animateProgressBar() {
@@ -84,7 +88,7 @@ document.onreadystatechange = function () {
           }, 1000);
         }
       }));
-      
+
       $(window).on('resize scroll', function () {
         // on page resize or scroll check if element is in viewport
         animateProgressBar();

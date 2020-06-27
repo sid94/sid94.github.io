@@ -41,9 +41,30 @@ div.page {
   padding-bottom: 30px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width : 300px) and  (max-width: 700px) {
   div.page {
     min-height: 422px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  div.page {
+    min-height: 1346px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width : 300px) and  (max-width: 700px) {
+  div.page {
+    min-height: 430px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width : 701px) and  (max-width: 900px) {
+  div.page {
+    min-height: 995px;
     padding-bottom: 30px;
   }
 }
@@ -97,7 +118,7 @@ div.page {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width : 300px) and  (max-width: 700px) {
   .nav-bar a {
     text-align: center;
     float: none;
@@ -241,7 +262,7 @@ p {
   hyphens: auto;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 400px) {
+@media only screen and (min-device-width : 300px) and (max-device-width : 700px) {
   .img-size {
     min-width: 94% !important;
   }
@@ -298,7 +319,7 @@ p {
   overflow: hidden;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width : 300px) and  (max-width: 700px) {
   #one {
     float: none;
     margin-right: 0px;
@@ -354,7 +375,7 @@ p {
   display: None;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width : 300px) and  (max-width: 700px) {
   .email-from {
     float: none;
     margin-right: 0px;
@@ -586,7 +607,7 @@ header .social .btn {
   box-shadow: 2px 2px 0 transparent;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width : 300px) and  (max-width: 700px) {
   #timeline {
     margin: 30px;
     padding: 0px;
@@ -653,7 +674,7 @@ header .social .btn {
   overflow: inhert !important;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width : 300px) and  (max-width: 700px) {
   .main-menu {
     display: none
   }
@@ -856,26 +877,41 @@ header .social .btn {
   -webkit-text-fill-color: transparent;
 }
 
-@media screen and (max-width: 700px) {
+.getintouch-btn-style{
+  border: #007bff 1px double !important;
+  float: right;
+    /* padding-right: 9px; */
+  margin-right: 20px;
+}
+
+.getintouch-btn-top{
+    margin-top: 40px;
+}
+
+@media screen and  (max-width: 1024px) {
   .home-pad{
-    padding-top: 100px;
-    padding-left:100px;
+    padding-top: 287px;
+    padding-left: 58px;
   }
   
   .home-pad h1{
-    font-size: 60px;
+    font-size: 100px !important;
   }
   
   .home-pad h4{
-    font-size: 15px;
+    font-size: 30px;
   }
   
   .home-pad h3{
-    font-size: 20px;
+    font-size: 40px;
+  }
+
+  #home h2{
+    font-size: 52px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and  (min-width : 300px) and (max-width: 700px) {
   .home-pad{
     padding-top: 18px;
     padding-left: 12px;
@@ -895,8 +931,71 @@ header .social .btn {
 
   #home h2{
     padding-top: 0px !important;
+    font-size: 32px;
+  }
+
+  .getintouch-btn-top{
+    margin-top: 10px;
   }
 }
 
 /*----------------------------------Home Page end------------------------------------------*/
+
+@media screen and  (min-width : 701px) and (max-width: 900px) {
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+
+  div.content {
+    margin-left: 250px;
+    padding: 6px 16px;
+    height: 1000px;
+  }
+
+
+
+  .home-pad{
+    padding-top: 287px;
+    padding-left: 58px;
+  }
+  
+  .home-pad h1{
+    font-size: 80px !important;
+  }
+  
+  .home-pad h4{
+    font-size: 20px;
+  }
+  
+  .home-pad h3{
+    font-size: 30px;
+  }
+
+  #home h2{
+    font-size: 40px;
+  }
+
+  .sliderItem{
+    margin-left: 10px;
+  }
+
+  .email-from {
+    float: none;
+    margin-right: 0px;
+    width: auto;
+    border: 0;
+  }
+
+  .contact-detail {
+    margin-top: 30px;
+    text-align: center !important;
+  }
+
+}
 
