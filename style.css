@@ -31,6 +31,10 @@ p{
   color: white;
 }
 
+.section-margin{
+  margin-bottom: 30px;
+}
+
 .nav-bar a:hover:not(.active) {
   background-color: #CCDDE0;
   color: white;
@@ -312,8 +316,10 @@ p {
 }
 
 .wrapper div {
-  padding: 10px;
+  padding: 10px 10px 10px 0
 }
+
+
 
 #one {
   background-color: white;
@@ -352,7 +358,8 @@ p {
 }
 
 .back {
-  background: none !important;
+  margin-bottom: 20px;
+  border-radius: 0 20px 20px 0;
 }
 
 .skill {
@@ -361,6 +368,9 @@ p {
   padding-right: 20px;
   line-height: 30px;
   border-radius: 0 20px 20px 0;
+}
+
+.skill-content{
 }
 
 .text-percent {
@@ -545,12 +555,36 @@ header .social .btn {
   transition: all 0.3s ease;
 }
 
-#timeline .timeline-item .timeline-content h5 {
+.timeline-item h1{
+  font-size: 32px !important;
+}
+
+.timeline-item h2{
+  font-size: 24px !important;
+}
+.timeline-item h3{
+  font-size: 18.72px !important;
+}
+.timeline-item h4{
+  font-size: 16px !important;
+}
+.timeline-item h5{
+  font-size: 13.28px !important;
+}
+.timeline-item h6{
+  font-size: 10.72px !important;
+}
+
+#about_me p{
+  margin-right: 0px !important;
+}
+
+#timeline .timeline-item .timeline-content h3 {
   padding: 9px;
   background: #c6dbf0;
-  color: #fff;
+  color:#38a3ff;
   margin: -12px -12px 0px -11px;
-  font-weight: 300;
+  font-weight: 500;
   -webkit-border-radius: 3px 3px 0 0;
   -moz-border-radius: 3px 3px 0 0;
   -ms-border-radius: 3px 3px 0 0;
