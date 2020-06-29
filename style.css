@@ -261,7 +261,7 @@ p {
   text-align: center;
   color: #FFFFFF;
   padding-top: 60px;
-  margin: 5px 20px 10px 0;
+  margin: 5px 20px 20px 0;
   background-size: cover
 }
 
@@ -1072,6 +1072,19 @@ header .social .btn {
  #portfolio h4{
    font-size: 18px;
    font-weight: bold;
+ }
+
+ #portfolio p{
+   font-size: 15px;
+ }
+
+ #portfolio h5{
+   font-size: 12px;
+   font-weight: bold;
+ }
+
+ .img-contri{
+   height: 20px;
  }
 
 /*-------------------------------------------------------portfolio ends-----------------------------*/
