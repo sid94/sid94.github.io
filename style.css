@@ -256,14 +256,13 @@ p {
 
 .image-example {
   float: left;
-  background-color: #adb5bd;
   width: 285px;
   height: 180px;
   text-align: center;
   color: #FFFFFF;
   padding-top: 60px;
   margin: 5px 20px 10px 0;
-
+  background-size: cover
 }
 
 .hyphenate {
@@ -350,11 +349,11 @@ p {
 
 
 #one .wide {
-  color: #A0C4E2;
+  color: #73a7df;
 }
 
 #two .wide {
-  color: #A0C4E2;
+  color: #73a7df;
 }
 
 .back {
@@ -1044,4 +1043,26 @@ header .social .btn {
   }
 
 }
+
+/*-------------------------------------------------------portfolio start-----------------------------*/
+ .img-onlineexam{
+   background: url(images/onlineexam.png);
+   background-size: cover;
+   background-repeat: round;
+ }
+
+ .img-hackbu2020{
+   background: url(images/hackbu2020.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+
+ .img-blogsystem{
+  background: url(images/blogsystem.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+
+/*-------------------------------------------------------portfolio ends-----------------------------*/
+
 
