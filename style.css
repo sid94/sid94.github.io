@@ -1063,6 +1063,17 @@ header .social .btn {
   background-repeat: no-repeat;
  }
 
+ .img-spamham{
+  background: url(images/spamham.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+
+ #portfolio h4{
+   font-size: 18px;
+   font-weight: bold;
+ }
+
 /*-------------------------------------------------------portfolio ends-----------------------------*/
 
 
