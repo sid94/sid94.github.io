@@ -47,7 +47,7 @@ div.content {
 }
 
 div.page {
-  min-height: 553px;
+  /* min-height: 553px; */
   padding-bottom: 30px;
 }
 
@@ -950,6 +950,10 @@ header .social .btn {
   #home h2{
     font-size: 52px;
   }
+
+  .getintouch-btn-top{
+    margin-top: -5px;
+  }
 }
 
 @media screen and  (min-width : 300px) and (max-width: 700px) {
@@ -1002,7 +1006,7 @@ header .social .btn {
 
 
   .home-pad{
-    padding-top: 287px;
+    padding-top: 245px;
     padding-left: 58px;
   }
   
