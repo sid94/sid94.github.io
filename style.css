@@ -956,6 +956,13 @@ header .social .btn {
   }
 }
 
+@media screen and  (min-width : 901px) and (max-width: 1023px) {
+  .getintouch-btn-top{
+    margin-top: -8px;
+  }
+}
+
+
 @media screen and  (min-width : 300px) and (max-width: 700px) {
   .home-pad{
     padding-top: 18px;
