@@ -87,7 +87,7 @@ document.onreadystatechange = function () {
 
       function checkHomeInView(){
 
-        var elem = document.querySelector('#some-element');
+        var elem = document.querySelector('#ham-checkbox');
         var bounding = elem.getBoundingClientRect();
 
         if(bounding.top < 0){
