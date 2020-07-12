@@ -1100,4 +1100,101 @@ header .social .btn {
 
 /*-------------------------------------------------------portfolio ends-----------------------------*/
 
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .slider{
+      margin-top: 55px;
+    }
+    #menuToggle{
+      top :-200px
+    }
+}
 
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .slider{
+      margin-top: 55px;
+    }
+}
+
+/* ----------- iPhone X ----------- */
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .slider{
+      margin-top: 55px;
+    }
+}
+
+/* ----------- Galaxy S6 ----------- */
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+    .slider{
+      margin-top: 55px;
+    }
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+    .slider{
+      margin-top: 55px;
+    }
+}
+
+/* ----------- Google Pixel ----------- */
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+    .slider{
+      margin-top: 55px;
+    }
+}
+
+/* ----------- Google Pixel XL ----------- */
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+    .slider{
+      margin-top: 55px;
+    }
+}
+
+
+/* ----------- Google Pixel 2 XL ----------- */
+/* Landscape */
+@media screen 
+  and (min-device-width: 823px) 
+  and (max-device-height: 411px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+    .slider{
+      margin-top: 55px;
+    }
+}
