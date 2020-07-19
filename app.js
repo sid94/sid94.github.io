@@ -87,14 +87,6 @@ document.onreadystatechange = function () {
       }
 
       function checkHomeInView(){
-
-        // var elem = document.querySelector('#ham-checkbox');
-        // var bounding = elem.getBoundingClientRect();
-
-        // if(bounding.top < 0){
-        //   alert("lessthan zero")
-        // }
-
         let hT = $('.content').offset().top,
             hH = $('.content').outerHeight(),
             wH = $(window).height(),
