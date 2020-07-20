@@ -10,8 +10,11 @@ document.onreadystatechange = function () {
   if (state == 'interactive') {
     document.getElementById('contents').style.visibility = "hidden";
   } else if (state == 'complete') {
+    setTimeout(()=>{
+      document.getElementById('loader').style.visibility = "hidden";
+    },1000)
+    
     setTimeout(function () {
-
       function isMobile() {
         let check = false;
         (function (a) {
@@ -31,6 +34,15 @@ document.onreadystatechange = function () {
       //   console.log("sid")
       // }
     }
+
+    $("#extra-proj").click(function(){
+      if($("#extra-proj a")[0].text == "Show More"){
+        $("#extra-proj a")[0].text = "Show Less"
+      }else{
+        $("#extra-proj a")[0].text = "Show More"
+      }
+      $(".hide-extra").slideToggle("slow");
+    });
 
     setminheight()
 

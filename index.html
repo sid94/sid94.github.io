@@ -56,6 +56,7 @@
 </head>
 
 <body>
+  <div id="loader"></div>
   <div id="load"></div>
   <div id="contents">
     <div class="sidebar">
@@ -225,6 +226,29 @@
         <h1><span class="portfolio-flag flag-padding">Portfolio</span></h1>
         <div>
 
+           <article lang="en" class="project-tile">
+            <div class="example-container">
+              <a class="anchor-tile"
+                href="https://github.com/sid94/Deep-Learning/tree/master/SentimentAnalysis#demo"
+                target="_blank">
+                <div class="image-example img-size img-sentiment"></div>
+              </a>
+              <h4>Twitter Sentiment Analysis Using Deep Learning | <a
+                  href="https://github.com/sid94/Deep-Learning/tree/master/SentimentAnalysis#demo"
+                  class="port-demo" alt="demo" target="_blank">Demo</a> | <a
+                  href="https://github.com/sid94/Deep-Learning/tree/master/SentimentAnalysis"
+                  class="port-demo" alt="demo" target="_blank">Code</a></h4>
+              <a class="anchor-tile"
+                href="https://github.com/sid94/Deep-Learning/tree/master/SentimentAnalysis#demo"
+                target="_blank">
+                <p>Sentiment Analysis of Real-Time Tweets using Deep Learning is a full-stack web-based application. The interesting part about this application is the Event-Driven microservice architecture that uses Apache Kafka as a Pub/Sub bus.</p>
+                <p><b>Technology Used : </b> Tensorflow GPU, NLP, Python, Flask, NodeJS, Apache Kafka, MongoDB, React, Docker, Docker-Compose, EventEmitter, Socket.IO, HTML, CSS, Webpack, Bootstrap</p>
+              </a>
+              <h5>Other Contributor's : Shweta Mestry <a href="https://shweta94me.github.io" target="_blank"><img
+                    src="images/contributor-link.png" class="img-contri" alt="Shweta"></a></h5>
+            </div>
+          </article>
+
           <article lang="en" class="project-tile">
             <div class="example-container">
               <a class="anchor-tile" href="https://github.com/sid94/Container-based-Authenticated-Online-Exam#demo"
@@ -238,7 +262,7 @@
                   target="_blank">Code</a></h4>
               <a class="anchor-tile" href="https://github.com/sid94/Container-based-Authenticated-Online-Exam#demo"
                 target="_blank">
-                <p>A web application for taking online exam which will provide instant score. User is registered and
+                <p>A full stack web application for taking online exam which will provide instant score. User is registered and
                   authenticated using face recognition system.</p>
                 <p><b>Technology Used : </b>NodeJS, MongoDB, Microservices, Docker, Kubernetes, GCP, Face Recognition,
                   YAML, HTML, CSS</p>
@@ -261,7 +285,7 @@
                     target="_blank">Code</a></h4>
                 <a class="anchor-tile"
                   href="https://github.com/sid94/Blog-Query-System/tree/master/submit/prj4-sol#demo" target="_blank">
-                  <p>Blog system is divided in two use cases, user search and list users. User can be searched based
+                  <p>Blog system is full stack web application divided in two use cases, user search and list users. User can be searched based
                     upon
                     multiple criteria and list users section displays 5 users per page which supports dynamic
                     pagination.
@@ -296,39 +320,41 @@
             </div>
           </article>
 
-
-          <article lang="en" class="project-tile">
-            <div class="example-container">
-              <a class="anchor-tile"
-                href="https://github.com/sid94/HackBU-2020-NYC-Crime-Data-Analysis-and-Visualization/blob/master/README.md#demo"
-                target="_blank">
-                <div class="image-example img-size img-hackbu2020"></div>
-              </a>
-              <h4>NYC Crime Data Visualization | <a
-                  href="https://github.com/sid94/HackBU-2020-NYC-Crime-Data-Analysis-and-Visualization/blob/master/README.md#demo"
-                  class="port-demo" alt="demo" target="_blank">Demo</a> | <a
-                  href="https://github.com/sid94/HackBU-2020-NYC-Crime-Data-Analysis-and-Visualization"
-                  class="port-demo" alt="demo" target="_blank">Code</a></h4>
-              <a class="anchor-tile"
-                href="https://github.com/sid94/HackBU-2020-NYC-Crime-Data-Analysis-and-Visualization/blob/master/README.md#demo"
-                target="_blank">
-                <p>This is a web based application where we visualized NYC crime occuring locations using python folium
-                  maps. We could segregate the crime based upon their severity and displayed them in a different color
-                  markers</p>
-                <p><b>Technology Used : </b> Python, Pandas, Folium Maps, HTML, CSS</p>
-              </a>
-              <h5>Other Contributor's : Shweta Mestry <a href="https://shweta94me.github.io" target="_blank"><img
-                    src="images/contributor-link.png" class="img-contri" alt="Shweta"></a>, Tejesh Agrawal<a
-                  href="https://www.linkedin.com/in/tejesh-agrawal-23219a50/" target="_blank"><img
-                    src="images/contributor-link.png" class="img-contri" alt="Tejesh"></a></h5>
+         <div id="extra-project">
+            <div class="hide-extra">
+    
+              <article lang="en" class="project-tile">
+                <div class="example-container">
+                  <a class="anchor-tile"
+                    href="https://github.com/sid94/HackBU-2020-NYC-Crime-Data-Analysis-and-Visualization/blob/master/README.md#demo"
+                    target="_blank">
+                    <div class="image-example img-size img-hackbu2020"></div>
+                  </a>
+                  <h4>NYC Crime Data Visualization | <a
+                      href="https://github.com/sid94/HackBU-2020-NYC-Crime-Data-Analysis-and-Visualization/blob/master/README.md#demo"
+                      class="port-demo" alt="demo" target="_blank">Demo</a> | <a
+                      href="https://github.com/sid94/HackBU-2020-NYC-Crime-Data-Analysis-and-Visualization"
+                      class="port-demo" alt="demo" target="_blank">Code</a></h4>
+                  <a class="anchor-tile"
+                    href="https://github.com/sid94/HackBU-2020-NYC-Crime-Data-Analysis-and-Visualization/blob/master/README.md#demo"
+                    target="_blank">
+                    <p>This is a web based application where we visualized NYC crime occuring locations using python
+                      folium
+                      maps. We could segregate the crime based upon their severity and displayed them in a different
+                      color
+                      markers</p>
+                    <p><b>Technology Used : </b> Python, Pandas, Folium Maps, HTML, CSS</p>
+                  </a>
+                  <h5>Other Contributor's : Shweta Mestry <a href="https://shweta94me.github.io" target="_blank"><img
+                        src="images/contributor-link.png" class="img-contri" alt="Shweta"></a>, Tejesh Agrawal<a
+                      href="https://www.linkedin.com/in/tejesh-agrawal-23219a50/" target="_blank"><img
+                        src="images/contributor-link.png" class="img-contri" alt="Tejesh"></a></h5>
+                </div>
+              </article>
             </div>
-          </article>
-
-          
-
-
-
-          <div>
+            <div id="extra-proj" class="extra-btn">
+              <a href="#extra-project">Show More</a>
+            </div>
           </div>
 
         </div>
