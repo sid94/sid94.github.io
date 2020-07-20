@@ -26,10 +26,10 @@ document.onreadystatechange = function () {
       minheight = screen.height - 130 
       $('.page').css('min-height', minheight.toString() + "px");
 
-      if(isMobile()){
-        $('#home').css('min-height', (minheight - 80).toString() + "px");
-        console.log("sid")
-      }
+      // if(isMobile()){
+      //   $('#home').css('min-height', (minheight - 80).toString() + "px");
+      //   console.log("sid")
+      // }
     }
 
     setminheight()

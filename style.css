@@ -1126,6 +1126,10 @@ header .social .btn {
     #menuToggle{
       top :-200px
     }
+    .home-pad {
+      padding-top: 20px;
+      padding-left: 20px;
+    }
 }
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
@@ -1137,6 +1141,10 @@ header .social .btn {
   and (orientation: landscape) { 
     .slider{
       margin-top: 55px;
+    }
+    .home-pad {
+      padding-top: 20px;
+      padding-left: 20px;
     }
 }
 
@@ -1185,7 +1193,9 @@ header .social .btn {
     .slider{
       margin-top: 55px;
     }
+    
 }
+
 
 /* ----------- Google Pixel XL ----------- */
 /* Landscape */
@@ -1211,6 +1221,52 @@ header .social .btn {
       margin-top: 55px;
     }
 }
+
+/* ----------- Ipad pro ----------- */
+/* Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape){
+    .home-pad h1{
+      font-size: 100px !important;
+    }
+    
+    .home-pad h4{
+      font-size: 30px;
+    }
+    
+    .home-pad h3{
+      font-size: 40px;
+    }
+  
+    #home h2{
+      font-size: 52px;
+    }
+
+    .home-pad {
+      padding-top: 100px;
+      padding-left: 61px;
+  }
+
+}
+
+/* ----------- iPad mini 2, iPad mini 3, iPad mini 4, iPad 3, iPad 4, iPad Air and iPad Air 2 ----------- */
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape){
+    .home-pad {
+      padding-top: 28px;
+      padding-left: 40px;
+    }
+    .getintouch-btn-top {
+      margin-top: -10px;
+    }
+  }
 
 #home{
   min-height: 98vh !important;
