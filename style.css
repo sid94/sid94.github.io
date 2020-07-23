@@ -991,7 +991,7 @@ header .social .btn {
   }
 
   #home{
-    min-height: 475px !important;
+    min-height: 70vh !important;
   }
 }
 
@@ -1288,7 +1288,7 @@ header .social .btn {
   }
 
 #home{
-  min-height: 98vh !important;
+  min-height: 98vh ;
 }
 
 #contact{

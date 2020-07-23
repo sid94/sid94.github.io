@@ -27,7 +27,7 @@ document.onreadystatechange = function () {
       function setminheight(){
         console.log("inside")
       minheight = screen.height - 130 
-      $('.page').css('min-height', minheight.toString() + "px");
+      //$('.page').css('min-height', minheight.toString() + "px");
 
       // if(isMobile()){
       //   $('#home').css('min-height', (minheight - 80).toString() + "px");
